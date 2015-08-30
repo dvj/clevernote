@@ -4,19 +4,5 @@ Author: dvj (Doug Johnston)
 
 Evernote is a cross platform note taking system. They have GUI clients for Windows and Mac, various mobile platforms, and a web client. I still prefer doing most of my quick work from the command line, so here's an implementation of a command line client.
 
-Requirements:
-You need to have the Evernote API code and Thrift code in your PYTHONPATH, which you can get from http://www.evernote.com/about/developer/api/
-
-You'll also need to sign up for an Evernote API key which you can get from the same page. After signing up for an account you'll get a Consumer_key and a consumer_secret from Evernote (I think they use a manual process, so be a bit patient). You'll need to put these into the top of the clevernote.py file for things to work.
-
-Next you'll need to make an Evernote account on their dev server, at http://sandbox.evernote.com/
-
-Finally (!), you're ready to use the script. Enter your account info when prompted, and you should have access to your notes from the command line. Yey!
-
-Hopefully, after this gets a little more mature it can go through some process to be able to access the regualr evernote service (not the dev service) and work for everyone.
-
-
-
 About:
 The client currently uses markdown (http://daringfireball.net/projects/markdown/) to handle notes with rich text. Obviously pictures and media dont come across too well though :P
-
